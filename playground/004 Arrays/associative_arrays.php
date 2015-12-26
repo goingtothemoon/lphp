@@ -25,7 +25,7 @@
 
 <?php $assoc = array("first_name" => "Ted", "last_name" => "Dole"); ?>
 => pointing to the next data<br />
-The key is first_name the value is Kevin <br /><br />	
+The key is first_name the value is Ted <br /><br />	
 
 <?php echo $assoc["first_name"]; ?><br /><br />	
 Still asking for the value (the index) the object is first_name
