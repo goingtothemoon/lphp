@@ -24,5 +24,35 @@
 	 Random: <?php echo rand(); ?><br />
 	 Random (min, max): <?php echo rand(1,10) ?><br />
 	
-</body>
+	<br />
+	<br />
+
+	The += is going to update var2 in place by adding 4 to it.<br />
+	+= : <?php $var2 += 4; echo $var2; ?><br />
+	-= : <?php $var2 -= 4; echo $var2; ?><br />
+	*= : <?php $var2 *= 3; echo $var2; ?><br />
+	/= : <?php $var2 /= 4; echo $var2; ?><br />
+
+	<br />
+
+	Increment: <?php  $var2++; echo $var2; ?><br />
+	Decrement: <?php  $var2--; echo $var2; ?><br />
+
+	<br />
+
+	<?php 
+		// 1 is Number
+		
+		// "1" Can be anything
+		
+
+		// Don't rely on PHP to get the numbers correctly
+		echo 1 + "1";
+		echo 1 + "4 homes";
+
+
+	 ?>
+
+
+	</body>
 </html>
