@@ -29,13 +29,25 @@
 	<?php // echo $mixed ?><br />
 
 	<br />
-	Since we want to read what's in the array whe need to use print_r which is print readable.
+	Since we want to read what's in the array whe need to use print_r which is print readable. <br />
+	Text in a <b>pre</b> element is displayed in a fixed-width font, and it preserves both spaces and line breaks
 	
 	<pre>
 		<?php echo print_r($mixed); ?><br />
 	</pre>
 	<br />
 	<?php echo $mixed[4][1] ?><br />
+	<br />
+	<?php $mixed[2] = "cat"; ?><br />
+	We are changing value 2 to cat
+	<?php $mixed[4] = "mouse"; ?><br />
+	Adding mouse to value 4
+	<?php $mixed[] = "horse"; ?><br />
+	Using [] will automatically put the value at the end of the array.
+
+	<pre>
+		<?php echo print_r($mixed) ?>
+	</pre>
 
 </body>
 </html>
