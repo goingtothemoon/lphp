@@ -25,5 +25,6 @@ Can be used for test <br /><br /><br />
 
 	result2 is boolean? <?php echo is_bool($result2) ?>
 	
+	
 </body>
 </html>
