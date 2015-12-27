@@ -40,8 +40,8 @@
 		 // colons, semicolons and breaks do
 		 $year = 2013;
 		 switch (($year - 4) % 12) {
-		 	case  0: $zodiac = 'Rat'; break;
-		 	case  1: $zodiac = 'Ox'; break;
+		 	case  0: $zodiac = 'Rat';   break;
+		 	case  1: $zodiac = 'Ox';    break;
 		 	case  2: $zodiac = 'Tiger'; break;
 		 	case  3: $zodiac = 'Raabit'; break;
 		 	case  4: $zodiac = 'Dragon'; break;
