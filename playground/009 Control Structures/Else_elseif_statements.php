@@ -20,7 +20,6 @@
 			echo "a is equal to b";
 		}
 		
-
 	 ?>
 
 </body>
