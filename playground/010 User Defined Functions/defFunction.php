@@ -31,6 +31,8 @@
 
 		say_hello_caps();
 
+		// Cannot redefine a function
+
 	 ?>
 	
 </body>
