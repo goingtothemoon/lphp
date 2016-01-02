@@ -32,10 +32,10 @@
 
 	<?php 
 		
-		function say_hello_to($word) {
+		function say_hello_to($word) { 
 			echo "Hello {$word}!<br /> ";
 
-			var_dump(debug_backtrace());
+			var_dump(debug_backtrace()); // dumps info
 		}
 
 		say_hello_to('Everyone');
