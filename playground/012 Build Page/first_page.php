@@ -10,7 +10,7 @@
 
 <?php $link_name = "Second Page"; // Using PHP # Adding an id ?>
 
-<?php $id = 2; // Links going with diffrent ID's ?>
+<?php $id = 5; // Links going with diffrent ID's ?>
 
 <a href="second_page.php?id=<?php echo $id; ?>"><?php echo $link_name; ?></a>
 	
