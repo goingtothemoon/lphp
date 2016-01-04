@@ -14,5 +14,13 @@
 	 ?>
 	</pre>
 
+	<br />
+
+	<?php 
+
+		$company = $_GET['company'];
+		echo $company;
+	 ?>
+
 </body>
 </html>

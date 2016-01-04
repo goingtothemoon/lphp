@@ -12,7 +12,13 @@
 
 <?php $id = 5; // Links going with diffrent ID's ?>
 
-<a href="second_page.php?id=<?php echo $id; ?>"><?php echo $link_name; ?></a>
+<?php $company = "J & J" ?>
+
+<!-- <a href="second_page.php?id=<?php echo $id; ?>"><?php echo $link_name; ?></a> -->
+
+<br />
+
+<a href="second_page.php?id=<?php echo $id;?>&company=<?php echo urlencode($company); ?>"><?php echo $link_name ?></a>
 	
 </body>
 </html>
