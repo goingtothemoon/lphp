@@ -6,7 +6,7 @@
 <body>
 	<?php 
 		/* 
-		
+
 			# 3 Ways of getting information
 			# Corresponds to a METHOD
 
@@ -15,6 +15,8 @@
 			3- Cookies       || COOKIE   
 
 		*/
+
+			
 
 
 	 ?>
