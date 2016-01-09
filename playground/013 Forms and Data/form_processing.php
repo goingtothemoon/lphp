@@ -12,8 +12,16 @@
 	</pre>
 	<br />
 	<?php 
+		if(isset($_POST]"username"])){  // isset — Determine if a variable is set and is not NULL
+			# code...
 		$username = $_POST["username"]; // Easier to work with instead of always using superglobal
-		$password = $_POST["password"];
+		}
+		if (isset($_POST["password"])) {
+			# code...
+			$password = $_POST["password"];
+		}
+		
+
 
 		echo "{$username}: {$password}";
 
