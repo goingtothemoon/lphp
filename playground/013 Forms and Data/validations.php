@@ -41,10 +41,10 @@
 
 
 	// * inclusion
-	$value = "6"; 
+	$value = "1"; 
 	$set = array("1","2","3","4");
 		if (!in_array($value, $set)) {
-		# code...
+		
 		echo "Validation failed. 06<br />";
 	}
 
@@ -62,6 +62,16 @@
 		# code...
 		echo "A match was not found.";
 	}
+	$value = "watwat@wherewhre.com";  // finds the @ symbol and passes validation
+	if (preg_match("/@/", "$value")) {
+		# code...
+		echo "Validation failed. 06<br />";
+	}
+	
+
+	if (strrpos($value, "@") === false) {  
+		echo "Validation failed (strrpos) <br />";
+	} 
 	
 
 
