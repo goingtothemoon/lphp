@@ -30,6 +30,9 @@
 		echo is_equal (100, "le2");
 		echo is_equal (100, 100.00);
 		echo is_equal ("abc", true);
+		echo is_equal ("123", "   123");
+		echo is_equal ("123", "+0123");
+
 
 	 ?>
 	
