@@ -8,7 +8,7 @@
 	<?php 
 
 	// * presence
-	$value = "x"; // if nothing in string it will fail.
+	$value = "00"; // if nothing in string it will fail.
 	if (!isset($value) || empty($value)) {
 		# code...
 		echo "Validation failed. 01<br />";
