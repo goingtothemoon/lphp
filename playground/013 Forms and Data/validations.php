@@ -69,7 +69,7 @@
 	}
 	
 
-	if (strrpos($value, "@") === false) {  
+	if (strrpos($value, "@") === false) {  // must use exact === if not will return 0 because @ is first
 		echo "Validation failed (strrpos) <br />";
 	} 
 	
