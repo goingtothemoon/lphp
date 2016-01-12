@@ -77,7 +77,7 @@
 	
 	
 	<?php 
-	
+
 	/*
 		# Type juggling
 
@@ -100,6 +100,11 @@
 		- null
 		- false
 		- array()
+
+		# Be careful with basic operators
+
+		1) <, <=, >, >=
+		2) &&, ||
 
 
 	*/
